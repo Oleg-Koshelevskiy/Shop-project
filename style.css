@@ -5,6 +5,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: url(images/patt.png);
 }
+
+/* Header */
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -102,7 +105,7 @@ li:hover .arrow::after {
     position: absolute;
     display: none;
     background-color: #2c71b8;
-    width: 285px;
+    width: 286px;
     margin-left: -1px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -180,4 +183,55 @@ li.sub-menu:hover a {
     position: absolute;
     top: -10px;
     left: -10px;
-  }
+}
+
+/* main */
+.mid-box {
+    border-bottom: white solid 1px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.left-panel {
+    background-color:  rgba(255, 255, 255, 0.2);
+    height: 844px;
+}
+.way {
+    padding-top: 30px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);    
+}
+.underline {
+    text-decoration: underline;
+}
+.name {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.items {
+    margin: -15px;
+}
+.col-md-30 {
+    width: 30%;
+    height: 650px;
+    border: white solid 1px;
+    margin: 15px;
+    padding-left: 0;    
+    padding-right: 0;
+}
+.item a {
+    display: block;
+    height: 180px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.item > a > img {
+    position: absolute;
+    margin: auto;   
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+}
