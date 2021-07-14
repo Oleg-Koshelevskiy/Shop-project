@@ -221,8 +221,7 @@ li.sub-menu:hover a {
     padding-left: 0;    
     padding-right: 0;
 }
-.item a {
-    display: block;
+.item {
     height: 180px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.75);
@@ -234,4 +233,100 @@ li.sub-menu:hover a {
     right: 0;
     bottom: 0;
     left: 0;    
+}
+.target-blue {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top: 5px;
+    border: #2c71b8 solid 1px;
+}
+.target-blue > img {      
+    margin-top: 4px;
+    margin-left: 4px;    
+}
+.heart-blue {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top: 45px;
+    border: #2c71b8 solid 1px;
+}
+.heart-blue > img {      
+    margin-top: 6px;
+    margin-left: 6px;    
+}
+.descript {
+    color: white;
+    line-height: 25px;
+    background-color: rgba(44, 113, 184, 0.75);
+    padding: 15px;    
+}
+.device {
+    font-size: 30px;
+    font-weight: bold;
+}
+.general {
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    position: relative;
+}
+.bold {
+    font-weight: bold;
+}
+.price {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+}
+.cent {
+    vertical-align: super;
+    font-size: 30px;
+}
+.details {
+    margin-left: 15px;
+    margin-top: 20px;
+    position: absolute;
+}
+.details > a {
+    display: block;
+    height: 50px;
+    width: 210px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2c71b8;
+    border: white 1px solid;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+.add-to-cart {
+    margin-left: 15px;
+    margin-top: 85px;
+    position: absolute;
+}
+.add-to-cart > a {
+    display: block;
+    height: 50px;
+    width: 210px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: white 1px solid;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+}
+.add-to-cart > a >img {
+    width: 15px;
+    height: 17px;
+    position: absolute;
 }
